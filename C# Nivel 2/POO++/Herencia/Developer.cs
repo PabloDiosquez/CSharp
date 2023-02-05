@@ -8,5 +8,9 @@ namespace Herencia
 {
     internal class Developer: Persona
     {
+        public Developer(string nombre, string apellido, int legajo) : base(nombre, apellido, legajo)
+        {
+
+        }
     }
 }
