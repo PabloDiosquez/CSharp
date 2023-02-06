@@ -12,5 +12,10 @@ namespace Herencia
         {
 
         }
+
+        public override string Saludar()
+        {
+            return "Hola! Soy el líder...";
+        }
     }
 }

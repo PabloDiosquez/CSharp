@@ -35,5 +35,12 @@ namespace Herencia
             get { return nombre; }
 
         }
+
+        public abstract string Saludar();
+
+        public override string ToString()
+        {
+            return $"Nombre: {nombre}";
+        }
     }
 }

@@ -25,7 +25,7 @@ namespace Herencia
 
             foreach (Persona persona in personas)
             {
-                Console.WriteLine($"Nombre: {persona.Nombre}");
+                Console.WriteLine(persona.ToString());
             }
 
         }
